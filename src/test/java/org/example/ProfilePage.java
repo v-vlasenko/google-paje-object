@@ -13,7 +13,7 @@ public class ProfilePage {
         this.driver =  driver;
     }
 
-    @FindBy(xpath = "//*[contains(@aria-label, 'Google Account: Vladyslav Vlasenko')]")
+    @FindBy(xpath = "//*[contains(@aria-label, 'Google Account')]")
     private WebElement userMenu;
     /**
      * определение локатора кнопки выхода из аккаунта
