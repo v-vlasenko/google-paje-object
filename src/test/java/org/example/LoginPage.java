@@ -27,7 +27,7 @@ public class LoginPage {
     private WebElement loginField;
 
     /**
-     * определение локатора кнопки "Далі"
+     * определение локатора кнопки "Next"
      */
     @FindBy(xpath = "//div[@id='identifierNext']")
     private WebElement emailNextButton;
@@ -54,7 +54,7 @@ public class LoginPage {
         passwordField.sendKeys(password);
     }
     /**
-     * метод клика кнопки "Далі"
+     * метод клика кнопки "Next"
      */
     public void clickEmailNextButton() {
         emailNextButton.click();

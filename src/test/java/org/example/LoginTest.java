@@ -27,11 +27,9 @@ public class LoginTest {
             //получение ссылки на страницу входа из файла настроек
             driver.get(ConfProperties.getProperty("loginpage"));
             loginPage = new LoginPage(driver);
-            protectAccountPage = new ProtectAccountPage(driver);
             profilePage = new ProfilePage(driver);
         }
     public static LoginPage loginPage;
-    public static ProtectAccountPage protectAccountPage;
     public static ProfilePage profilePage;
     public static WebDriver driver;
 
